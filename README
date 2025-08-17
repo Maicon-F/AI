@@ -1,21 +1,50 @@
 
-Project Description
-Project: Transfer Learning in Python
+# Transfer Learning in Python
 
-This project applies the Transfer Learning method to a Deep Learning neural network using the Python language in the Google Colab environment.
+## Overview
 
-For this example, we will use the following project, which performs Transfer Learning with the MNIST Dataset:
-https://colab.research.google.com/github/kylemath/ml4a-guides/blob/master/notebooks/transfer-learning.ipynb
+This project applies **Transfer Learning** to a **Deep Learning** neural network using **Python** in the **Google Colab** environment.
 
-The dataset used encompasses two classes: cats and dogs. A description of the database can be found at this link: https://www.tensorflow.org/datasets/catalog/cats_vs_dogs.
+In this example, we use a **cats vs. dogs** dataset to demonstrate Transfer Learning techniques. The project will guide you through how to implement Transfer Learning using pre-trained models (e.g., **VGG16**) and how you can adapt them to your own dataset.
 
-The dataset for download can be accessed via this link: https://www.microsoft.com/en-us/download/details.aspx?id=54765.
+> **Note:** You can replace the **cats and dogs** dataset with any other dataset, such as photos of yourself, friends, family, or pets.
 
-Notes: In this project, you can use your own database (for example: photos of yourself, your parents, your friends, your pets, etc.). The cats and dogs example can be replaced with two other classes of your interest. The dataset created in our previous project can be used now.
+## Project Structure
 
-The project is a education exercise and will be submitted to the DIO GitHub: https://github.com/digitalinnovationone.
+- **Dataset:** [Cats vs. Dogs Dataset](https://www.tensorflow.org/datasets/catalog/cats_vs_dogs)
+- **Dataset for Download:** [Download here](https://www.microsoft.com/en-us/download/details.aspx?id=54765)
+- **Google Colab Notebook:** [Transfer Learning in Python](https://colab.research.google.com/github/kylemath/ml4a-guides/blob/master/notebooks/transfer-learning.ipynb)
 
-Slides
-The complete presentation used in this module is available [HERE](https://academiapme-my.sharepoint.com/:w:/g/personal/kawan_dio_me/EQe4Pxlc2AxJlgnzavGVT8YBmVqrUCPPfeYZ4XFpybYtOA?e=rufUgP).
+### Custom Dataset Option
 
-This will give you access to all the slides and links explored during the classes.
+If you prefer to use a custom dataset, feel free to replace the cats and dogs dataset with your own images, whether it's **photos of yourself**, **family**, **friends**, or **pets**. This flexibility allows you to apply Transfer Learning to any classification problem of your choice.
+
+You can also use the dataset created in a **previous project** as input for this one.
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- **Google Colab** (used for running code in the cloud)
+- **Python 3.x**
+- **TensorFlow** (for machine learning)
+- **Keras** (for neural network creation)
+
+### Setting Up
+
+1. **Download the Dataset**:
+   - Download the dataset from [Microsoft's official site](https://www.microsoft.com/en-us/download/details.aspx?id=54765).
+   - Extract it and upload to **Google Colab**.
+
+2. **Import Libraries**:
+   The notebook will guide you through importing necessary libraries like TensorFlow, Keras, NumPy, and others.
+
+### Example of Code Flow
+
+```python
+import tensorflow as tf
+from tensorflow.keras.applications import VGG16
+from tensorflow.keras import layers, models
+
