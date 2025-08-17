@@ -1,1 +1,21 @@
-This is a repository designed to keep my education projects related to AI in general
+
+Project Description
+Project: Transfer Learning in Python
+
+This project applies the Transfer Learning method to a Deep Learning neural network using the Python language in the Google Colab environment.
+
+For this example, we will use the following project, which performs Transfer Learning with the MNIST Dataset:
+https://colab.research.google.com/github/kylemath/ml4a-guides/blob/master/notebooks/transfer-learning.ipynb
+
+The dataset used encompasses two classes: cats and dogs. A description of the database can be found at this link: https://www.tensorflow.org/datasets/catalog/cats_vs_dogs.
+
+The dataset for download can be accessed via this link: https://www.microsoft.com/en-us/download/details.aspx?id=54765.
+
+Notes: In this project, you can use your own database (for example: photos of yourself, your parents, your friends, your pets, etc.). The cats and dogs example can be replaced with two other classes of your interest. The dataset created in our previous project can be used now.
+
+The project is a education exercise and will be submitted to the DIO GitHub: https://github.com/digitalinnovationone.
+
+Slides
+The complete presentation used in this module is available [HERE](https://academiapme-my.sharepoint.com/:w:/g/personal/kawan_dio_me/EQe4Pxlc2AxJlgnzavGVT8YBmVqrUCPPfeYZ4XFpybYtOA?e=rufUgP).
+
+This will give you access to all the slides and links explored during the classes.
